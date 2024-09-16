@@ -1,0 +1,66 @@
+.masterPage {
+  padding: 2rem !important;
+  height: 100vh !important;
+}
+
+@media (max-width: 768px) {
+  .masterPage .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .masterPage .masterContent {
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem !important;
+  }
+}
+@media (max-width: 350px) {
+  .page-link {
+    font-size: small !important;
+  }
+
+  .addUser {
+    font-size: medium !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .pageHeading {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+.pageHeading {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .masterPage h3 {
+    font-size: 1.5rem;
+  }
+
+  .masterPage .userListRow {
+    margin-top: 1rem;
+  }
+}
+
+.masterContainer {
+  height: 90vh;
+}
+
+.masterRow {
+  height: 100%;
+}
+
+.vr {
+  border-right: 1px solid #1f1e1ec7;
+  height: 2.5rem;
+}
+
+.masterContent {
+  padding: 0rem 1rem 0rem 3rem !important;
+}
+
+.userListRow {
+  margin-top: 2rem !important;
+}
